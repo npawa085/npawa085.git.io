@@ -2,13 +2,50 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-      </head>
+        <title> Survey </title>      </head>
       <body>
+      <form>
+        <div>
+        First Name: <input type = "text" name = "firstname">
+        </div>
+
+        <div>
+        What type of Phone do you currently use?: <br>
+        <input type = "radio" name = "phonetype" value = "iphone"> iPhone<br>
+        <input type = "radio" name = "phonetype" value = "android"> Android<br>
+        <input type = "radio" name = "phonetype" value = "google"> Google Pixel<br>
+        <input type = "radio" name = "phonetype" value = "other"> Other<br>
+    </div>
+
+        <div>
+        What headphone style do you like?:<br>
+        <select name = "headphones">
+            <option value = "wireless" selected = "selected"> In Ear Wireless </option>
+            <option value = "wired"> Wired </option>
+            <option value = "overear"> Over Ear </option>
+        </select>
+        </div>
+
       
+
+      <div>
+      What time(s) of the day do you use your phone the most?: <br>
+      <input type = "checkbox" name = "Morning" value = "Morning"> Morning <br>
+      <input type = "checkbox" name = "Afternoon" value = "Afternoon"> Afternoon <br>
+      <input type = "checkbox" name = "Evening" value = "Evening"> Evening <br>
+      <input type = "checkbox" name = "Night" value = "Night"> Night <br>
+
+    </div>
+
+    Comments <br>
+     <textarea rows ="7" cols = "45"/>
       <h1>This is a heading</h1>
       <p>This is a paragraph.</p>
 
-      <a href="https://airbnb.ca">This is a link</a>
+      <input type = "submit" value = "submit the survey"/>
+      
+    </form>
+      <a href="https://airbnb.ca">This is an example of a Good UI</a>
       
       </body>
 
